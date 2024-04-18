@@ -331,6 +331,8 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  max-width: 90%;
+  
 }
 
 .article-container {
@@ -343,6 +345,7 @@ section {
 }
 
 article {
+  padding-top: 30px;
   display: flex;
   width: 10rem;
   justify-content: space-around;
@@ -357,6 +360,7 @@ article .icon {
 
 #projects {
   position: relative;
+  margin-bottom: 50vh;
 }
 
 .color-container {
