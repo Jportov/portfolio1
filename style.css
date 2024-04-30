@@ -364,14 +364,13 @@ article .icon {
 }
 
 .experience-details-container {
-  display: flex;
-  flex-wrap: nowrap; /* Evita que os itens quebrem para a próxima linha */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;  /* Evita que os itens quebrem para a próxima linha */
   
 }
 
 .color-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* Cria três colunas de largura igual */
+  /* Cria três colunas de largura igual */
   grid-gap: 10px;
   width: 200px; /* Define a largura desejada para cada item */
   margin-right: 10px; /* Adiciona espaço entre os itens */
