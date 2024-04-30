@@ -331,8 +331,8 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  max-width: 90%;
-  align-items: flex-end;
+  max-width: 100%;
+  
   
 }
 
