@@ -48,10 +48,7 @@
 }
 
 @media screen and (max-width: 600px) {
- .color-container {
-    text-align: center; 
-    align-item: center;
-  }
+   
   #contact,
   footer {
     height: 40vh;
@@ -71,6 +68,8 @@
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+    aling-item: start;
+    
   }
   .contact-info-container {
     margin: 0;
