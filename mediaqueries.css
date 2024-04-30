@@ -48,10 +48,10 @@
 }
 
 @media screen and (max-width: 600px) {
-   .div {
-     justify-content: center;
-     display:flex;
-   }
+#projects {
+    height: fit-content;
+    margin-top: 10px;  }
+}
   #contact,
   footer {
     height: 40vh;
