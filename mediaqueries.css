@@ -49,7 +49,7 @@
 
 @media screen and (max-width: 600px) {
 #projects {
-     display: flex;
+     display: flex-box;
       justify-content: center;
   
 }
