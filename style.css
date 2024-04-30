@@ -329,12 +329,15 @@ section {
 
 .experience-details-container {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  max-width: 100%;
-  
-  
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+  justify-content: space-around; /* Distribui os itens igualmente ao longo do eixo principal */
 }
+
+.experience-details-container > * {
+  flex-basis: calc(33.33% - 20px); /* Define a largura máxima de cada item para ocupar um terço do espaço disponível, com um espaçamento entre eles */
+  margin-bottom: 20px; /* Adiciona um espaçamento entre as linhas */
+}
+
 
 .article-container {
   display: flex;
