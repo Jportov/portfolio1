@@ -1,16 +1,4 @@
-@media screen and (max-width: 1400px) {
-  #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
-  }
-  .about-containers {
-    flex-wrap: wrap;
-  }
-  #contact,
-  #projects {
-    height: fit-content;
-    margin-top: 6rem;  }
-}
+
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
