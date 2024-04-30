@@ -49,8 +49,8 @@
 
 @media screen and (max-width: 600px) {
 #projects {
-    display: flex; /* Correção aqui */
-    justify-content: center;
+    
+    align-items: center;
   }
   #contact,
   footer {
