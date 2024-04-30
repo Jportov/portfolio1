@@ -363,17 +363,13 @@ article .icon {
   position: relative;
 }
 
-.experience-details-container {
+.color-grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;  /* Evita que os itens quebrem para a próxima linha */
-  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Cria um grid automático com no mínimo 200px de largura e no máximo igualmente distribuído */
+  grid-gap: 10px; /* Espaçamento entre as células */
 }
 
 .color-container {
-  /* Cria três colunas de largura igual */
-  
-  width: 200px; /* Define a largura desejada para cada item */
-  margin-right: 10px; /* Adiciona espaço entre os itens */
   background: rgb(250, 250, 250);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
