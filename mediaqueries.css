@@ -49,8 +49,9 @@
 
 @media screen and (max-width: 600px) {
 #projects {
-    height: fit-content;
-    margin-top: 10px;  }
+     display: flex;
+      justify-content: center;
+  
 }
   #contact,
   footer {
