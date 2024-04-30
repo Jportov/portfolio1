@@ -369,7 +369,7 @@ article .icon {
 .color-container {
   flex: 0 0 auto; /* Define o tamanho dos itens para que não cresçam e não encolham */
   width: 100px; /* Define a largura desejada para cada item */
-  margin-right: 20px; /* Adiciona espaço entre os itens */
+  margin-right: 5px; /* Adiciona espaço entre os itens */
   background: rgb(250, 250, 250);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
