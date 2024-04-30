@@ -49,10 +49,9 @@
 
 @media screen and (max-width: 600px) {
 #projects {
-     display: flex-box;
-      justify-content: center;
-  
-}
+    display: flex; /* Correção aqui */
+    justify-content: center;
+  }
   #contact,
   footer {
     height: 40vh;
