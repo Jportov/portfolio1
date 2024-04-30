@@ -48,11 +48,8 @@
 }
 
 @media screen and (max-width: 600px) {
-#projects {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ .color-container {
+    text-align: center; /* Garante que o conteúdo esteja centralizado */
   }
   #contact,
   footer {
