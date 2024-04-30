@@ -61,6 +61,7 @@
   }
   article {
     font-size: 1rem;
+    justify-content: unset;
   }
   footer nav {
     height: fit-content;
