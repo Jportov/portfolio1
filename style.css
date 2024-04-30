@@ -370,6 +370,7 @@ article .icon {
 }
 
 .color-container {
+  display:block;
   background: rgb(250, 250, 250);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
