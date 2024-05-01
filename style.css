@@ -169,8 +169,8 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
   margin: auto 0;
 }
 
@@ -278,22 +278,19 @@ section {
   flex-direction: column;
 }
 
-.about-containers,
-.about-details-container {
+.about-containers
+{
   display: flex;
   flex-direction:row;
- 
+
 }
 
 .about-pic {
   border-radius: 2rem;
+  align-items: center;
 }
 
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
-}
+
 
 .details-container {
   padding: 1.5rem;
@@ -308,7 +305,7 @@ section {
 
 .section-container {
   gap: 4rem;
-  height: 80%;
+  
 }
 
 .section__pic-container {

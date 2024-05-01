@@ -36,9 +36,9 @@
 }
 
 @media screen and (max-width: 600px) {
-   .details-container {
-     margin-left:30px;
-     }
+  .details-container {
+    margin-left:10px;
+    }
   #contact,
   footer {
     height: 40vh;
@@ -58,8 +58,7 @@
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
-    flex-wrap: wrap;
-    aling-item: start;
+    flex-wrap: flex;
     
   }
   .contact-info-container {
