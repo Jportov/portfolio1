@@ -36,8 +36,12 @@
 }
 
 @media screen and (max-width: 600px) {
+  p{
+    font-size: 10px;
+    max-width: 100%;
+  }
   .details-container {
-    margin-left:10px;
+    margin-left:1px;
     }
   #contact,
   footer {
@@ -62,12 +66,12 @@
     
   }
   .contact-info-container {
-    margin: 0;
+    margin: 0.5rem;
   }
   .contact-info-container p,
   .nav-links li a {
-    font-size: 1rem;
-     margin: 0.5rem;
+    font-size: 10px;
+    justify-content: space-between;
   }
   .experience-sub-title {
     font-size: 1.25rem;
