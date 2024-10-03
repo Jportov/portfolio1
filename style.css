@@ -193,7 +193,7 @@ section {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -266,37 +266,45 @@ section {
 }
 
 .about-containers {
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  max-width: 100%;
+  gap: 1rem;
   
 }
 
-.about-details-container {
-  justify-content: center;
-  flex-direction: column;
-}
 
-.about-containers
-{
+.about-containers {
   display: flex;
-  flex-direction:row;
-
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10rem;
 }
 
+.about-container {
+   /* Centraliza os itens dentro do contêiner */
+  align-items: center;
+  width: 100%; /* Alinha verticalmente ao centro */
+  /* Centraliza o contêiner horizontalmente na página */
+}
 .about-pic {
-  border-radius: 2rem;
+  border-radius:4rem;
   align-items: center;
 }
 
-
-
+.details-container-about {
+  padding: 1rem;
+  flex: 1;
+  height: 6rem;
+  background: white;
+  border-radius: 1rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
 .details-container {
-  padding: 0;
+  padding: 1rem;
   flex: 1;
   background: white;
-  border-radius: 2rem;
+  border-radius: 1rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
@@ -324,14 +332,14 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    max-width: 100%;
+  
 }
 
 
 
 .article-container {
   display: flex;
-  text-align: initial;
+  text-align: center;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
@@ -339,7 +347,7 @@ section {
 }
 
 article {
-  padding-top: 30px;
+  padding-top: 10px;
   display: flex;
   width: 10rem;
   justify-content: space-around;
@@ -361,17 +369,10 @@ article .icon {
 .experience-details-container {
   display: flex;
   flex-wrap: nowrap; /* Evita que os itens quebrem para a próxima linha */
-  overflow-x: auto; /* Adiciona uma barra de rolagem horizontal se os itens não couberem na largura da tela */
+  overflow-x: auto; /* Ad\iciona uma barra de rolagem horizontal se os itens não couberem na largura da tela */
+  height: 100%;
 }
 
-.color-container {
-  flex: 0; /* Define a largura desejada para cada item, considerando a margem entre eles */
-  margin-right: 10px; /* Adiciona espaço entre os itens */
-  background: rgb(250, 250, 250);
-  border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-}
 
 .project-img {
   border-radius: 2rem;
