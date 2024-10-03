@@ -148,7 +148,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: 100vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -270,20 +270,24 @@ section {
   
 }
 
-
 .about-containers {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-top: 10rem;
+}
+.about-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
 }
 
 .about-container {
-   /* Centraliza os itens dentro do contêiner */
   align-items: center;
-  width: 100%; /* Alinha verticalmente ao centro */
-  /* Centraliza o contêiner horizontalmente na página */
+  width: 100%;
+  
 }
 .about-pic {
   border-radius:4rem;
@@ -299,6 +303,9 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  width: fit-content;
+
+
 }
 .details-container {
   padding: 1rem;
@@ -308,17 +315,16 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
-  margin-bottom: 2rem; /* Adicionando margem inferior */
 }
 
 .section-container {
-  gap: 4rem;
+  gap: 2rem;  
   
 }
 
 .section__pic-container {
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   margin: auto 0;
 }
 
@@ -360,8 +366,6 @@ article .icon {
 
 /* PROJECTS SECTION */
 
-/* PROJECTS SECTION */
-
 #projects {
   position: relative;
 }
@@ -370,10 +374,8 @@ article .icon {
   display: flex;
   flex-wrap: nowrap; /* Evita que os itens quebrem para a próxima linha */
   overflow-x: auto; /* Ad\iciona uma barra de rolagem horizontal se os itens não couberem na largura da tela */
-  height: 100%;
+  
 }
-
-
 .project-img {
   border-radius: 2rem;
   width: 100%; /* Garante que a imagem ocupe 100% da largura do contêiner */
@@ -381,15 +383,13 @@ article .icon {
 }
 
 .project-title {
-  margin: 1rem;
+  margin: 2rem;
   color: black;
 }
-
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
 }
-
 /* CONTACT */
 
 #contact {
