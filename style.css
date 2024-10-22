@@ -262,26 +262,29 @@ section {
 /* ABOUT SECTION */
 
 #about {
+  display: flex;
   position: relative;
-}
+  align-self: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  h1{ 
+    margin-bottom: 20px;
+}}
 
 .about-containers {
   gap: 1rem;
-  
+
 }
+
 
 .about-containers {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-}
-.about-containers {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  
 }
 
 .about-container {
@@ -290,20 +293,23 @@ section {
   
 }
 .about-pic {
-  border-radius:4rem;
-  align-items: center;
+  border-radius:2rem;
+
+  
 }
 
 .details-container-about {
   padding: 1rem;
   flex: 1;
   height: 6rem;
-  background: white;
+  background: rgb(255, 255, 255);
   border-radius: 1rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
-  width: fit-content;
+
+  margin-bottom: 50px;
+
 
 
 }
@@ -323,7 +329,7 @@ section {
 }
 
 .section__pic-container {
-  height: 350px;
+  height: 410px;
   width: 350px;
   margin: auto 0;
 }
@@ -332,16 +338,19 @@ section {
 
 #experience {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .experience-details-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
-  
+    margin-top: 2vh;
 }
-
-
 
 .article-container {
   display: flex;
@@ -368,18 +377,39 @@ article .icon {
 
 #projects {
   position: relative;
-}
-
-.experience-details-container {
-  display: flex;
-  flex-wrap: nowrap; /* Evita que os itens quebrem para a próxima linha */
-  overflow-x: auto; /* Ad\iciona uma barra de rolagem horizontal se os itens não couberem na largura da tela */
   
 }
+
+.projects-container {
+  padding: 0.5rem;
+  flex: 1;
+
+  border-radius: 1rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  width: 80%;
+  max-width: 100%;
+
+  max-height: 100%;
+  margin-top: 2rem;
+}
+.projects-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  overflow-x: auto;
+}
+
+
+
 .project-img {
   border-radius: 2rem;
   width: 100%; /* Garante que a imagem ocupe 100% da largura do contêiner */
   height: auto; /* Mantém a proporção da imagem */
+
 }
 
 .project-title {
@@ -390,6 +420,7 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+
 /* CONTACT */
 
 #contact {

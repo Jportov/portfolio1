@@ -37,16 +37,32 @@
 /* Para telas menores que 600px */
 @media screen and (max-width: 600px) {
   p {
-    font-size: 10px;
+    font-size: 16px;
     max-width: 100%;
-    
   }
+
   .details-container-about {
-    
-    padding: 0 auto;
+    width: 90%;
     flex: 1;
-    height: 6rem;
-    max-height: 100rem;
+    max-width: 100%;
+    margin-bottom: 2px;
+  }
+  .about-containers {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .section__text__p2 {
+    font-size: 1rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .text-container {
+    text-align: justify;
     background: white;
     
   }
@@ -56,34 +72,36 @@
     align-self: flex-start;
     
   }
-  .experience-projects-container{
-      max-width: 100%;
-      display: flex;
-      background-color: rgb(56, 136, 35);
   
-    }
-  .color-container-projects {
-        
-        display: flex;
-        flex-flow: column;
-        width: auto;
-        max-width: 100%;
-        
-        
-    
-  }
-  .color-container-projects img{
-    
-    width: auto;
-    height: 300px;
-    max-height: 100%;
+  .projects-containers {
+      
+    display: grid;
+    grid-auto-columns: auto;
     width: 100%;
-
+    max-width: 100%;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .projects-container {
+    padding: 0.5rem;
+    flex: 1;
+    border-radius: 1rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    width: 90%;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 2rem;
+  }
+  .project-img {
+    border-radius: 1rem;
+    width: 100%; /* Garante que a imagem ocupe 100% da largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+  
   }
   
-  .color-container-projects h1{
-    font-size: 10px;
-  }
   
   .details-container p {
     font-size: 10px;
@@ -100,7 +118,6 @@
     margin: 0;
     text-align: center;
   }
-
   #contact,
   footer {
     height: 40vh;
@@ -117,11 +134,7 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
-  .about-containers{
-    align-items: self-start;
-      max-width: 100%;
-      width: 375px;
-  }
+
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap; /* Corrigido para aplicar flexibilidade ao container */
@@ -139,8 +152,7 @@
     font-size: 1.5rem;
   }
   .section__pic-container {
-    width: auto;
-    height: 46vw;
+    
     justify-content: center;
   }
   .section__text__p2 {
